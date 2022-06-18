@@ -25,7 +25,7 @@ btns.forEach((e) => {
                 display.innerHTML += element.target.value;
                 if (
                     element.target.value === "+" ||
-                    element.target.value === "/" ||
+                    element.target.value === "*" ||
                     element.target.value === "/" ||
                     element.target.value === "-"
                 ) {
