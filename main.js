@@ -40,6 +40,7 @@ btns.forEach((e) => {
                         } else {
                             display.innerHTML += element.target.value;
                         }
+                        
                     }
                 }
             }
