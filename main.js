@@ -32,7 +32,7 @@ btns.forEach((e) => {
                     for (var i = 0; i < display.innerHTML.length; i++) {
                         if (
                             display.innerHTML[i - 1] === "+" ||
-                            display.innerHTML[i - 1] === "/" ||
+                            display.innerHTML[i - 1] === "*" ||
                             display.innerHTML[i - 1] === "/" ||
                             display.innerHTML[i - 1] === "-"
                         ) {
